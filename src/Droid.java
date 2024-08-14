@@ -8,6 +8,14 @@ public class Droid {
         batteryLevel = 100;
     }
 
+    // Method to perform a task
+    public void performTask(String task){
+        System.out.println(name + " is performing task: " + task);
+        batteryLevel -= 10;
+    }
+
+    
+
     // introduce the droid with a greeting
     public String toString(){
         return "Hello, I am the droid: " + name;
