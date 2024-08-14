@@ -7,7 +7,6 @@ public class Main {
 
         // Perform a task with the first droid
         codey.performTask("Dancing");
-
-
+        codey.energyReport();
     }
 }
