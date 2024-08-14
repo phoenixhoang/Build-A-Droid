@@ -14,9 +14,12 @@ public class Droid {
         batteryLevel -= 10;
     }
 
-    
+    // Method to report the current energy level of the droid
+    public void energyReport(){
+        System.out.println(name + " Energy Level: " + batteryLevel);
+    }
 
-    // introduce the droid with a greeting
+    // Introduce the droid with a greeting
     public String toString(){
         return "Hello, I am the droid: " + name;
     }
